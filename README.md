@@ -3,7 +3,10 @@
 Skills for **AI Power Tools for Microsoft Visio**, the MCP server that drives Microsoft Visio.
 
 This library covers Microsoft Visio only. AI Power Tools for Sparx EA is a separate product with
-its own skills library, manifest and release cadence. Nothing is shared between them.
+its own skills library, manifest and release cadence. Nothing is installed from the other, but
+some files are copied from the EA skills repository, for example `tools/fidelity.py` (arriving on a
+stacked branch). Each copy is kept byte-identical to its source. The shared notation library that the
+Sparx team is building will become the single shared source for these files.
 
 ## Status
 

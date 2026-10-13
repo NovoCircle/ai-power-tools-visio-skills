@@ -9,7 +9,7 @@ enumerates Cowork's plugins itself from its own stores, one of which is fed by
 an in-app upload that accepts a `.zip` or `.plugin` archive. This script builds
 that archive.
 
-A `.plugin` IS a zip -- the desktop normalises the extension before validating
+A `.plugin` IS a zip -- the desktop normalizes the extension before validating
 it -- with the plugin's own contents at the archive root, so `.claude-plugin/`
 sits at the top level.
 
