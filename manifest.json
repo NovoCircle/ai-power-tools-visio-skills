@@ -7,14 +7,18 @@
     {
       "name": "_shared",
       "title": "Shared references",
-      "description": "Reference material several Visio skills link to: the Westbrook Bank example organization. Not a skill - it has no SKILL.md and does not load as one. It installs beside the skills so their relative links resolve.",
+      "description": "Reference material and tools several Visio skills share: the Westbrook Bank example organization and the diagram measurement tool. Not a skill - it has no SKILL.md and does not load as one. It installs beside the skills so their relative links resolve.",
       "version": "0.0.0",
       "min_server_version": "2.0.0",
       "files": [
-        "_shared/references/westbrook-example.md"
+        "_shared/references/westbrook-example.md",
+        "_shared/tools/measure_visio.py",
+        "_shared/tools/test_measure_visio.py"
       ],
       "sha256": {
-        "_shared/references/westbrook-example.md": "9abd33c64124acaacf3c78d9eac2b596421fc5be2845bb623b833c665a4c55bf"
+        "_shared/references/westbrook-example.md": "9abd33c64124acaacf3c78d9eac2b596421fc5be2845bb623b833c665a4c55bf",
+        "_shared/tools/measure_visio.py": "837824bcdf5766d74f9ebd902bdd7e5b8f2439a672445e63ebd2c0ea97f6cbb7",
+        "_shared/tools/test_measure_visio.py": "1f8f974802a0b5e71011541b9177dd1c15fa659d5a008188aa73fb4534ef91fb"
       }
     }
   ]

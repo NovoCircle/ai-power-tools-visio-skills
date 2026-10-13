@@ -1,0 +1,2015 @@
+{
+ "schema": "apv-visio-corpus-catalog/1",
+ "corpus": {
+  "name": "microsoft-visio-content",
+  "root": "<visio-content>"
+ },
+ "visio": {
+  "build": "16.0.20430.20146",
+  "content_locale": "1033",
+  "units": "U",
+  "install_found_by": "registry HKLM\\SOFTWARE\\Microsoft\\Office\\16.0\\Visio\\InstallRoot\\Path"
+ },
+ "measured_on": "2026-10-12",
+ "tool": {
+  "name": "measure_visio",
+  "version": 1
+ },
+ "scope": {
+  "examined": "every *_U.VSTX template in the 1033 content folder (US units), read in place",
+  "not_examined": "the metric (_M) twins, which repeat the same masters at metric sizes; the right-to-left (_R2L) variants; stencils, which hold masters and no placed shapes; other locales",
+  "scaffold": {
+   "pattern": "\\btip pane\\b",
+   "files_with_scaffold": 56,
+   "shapes_excluded": 56
+  }
+ },
+ "entries": [
+  {
+   "id": "ms-actual-finishdates-ganttchart-u",
+   "file": "1033/ACTUAL_FINISHDATES_GANTTCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Gantt Chart with Actual Finish Dates",
+   "size_bytes": 105514,
+   "sha256": "b980e817a87b14fa9c3da9f36b07e2bd191707f9f8bd1a385ab4ffceff1d18cf",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 112,
+    "connectors": 2
+   }
+  },
+  {
+   "id": "ms-affinity-diagram-u",
+   "file": "1033/AFFINITY_DIAGRAM_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Affinity Diagram",
+   "size_bytes": 54369,
+   "sha256": "3e8280e246d6cbfe6b37fa3d1b8634e2cac7c238fe707e7bbd17cb19c2500e47",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 13,
+    "connectors": 1
+   }
+  },
+  {
+   "id": "ms-associations-uml-class-u",
+   "file": "1033/ASSOCIATIONS_UML_CLASS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Class Diagram with Associations",
+   "size_bytes": 57307,
+   "sha256": "500bc1e803bdc425173857a9b7471ed279e9c2dccff5558bf1a91bda7410a0fc",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 25,
+    "connectors": 3
+   }
+  },
+  {
+   "id": "ms-audit-several-outcomes-u",
+   "file": "1033/AUDIT_SEVERAL_OUTCOMES_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Audit with Several Outcomes",
+   "size_bytes": 54929,
+   "sha256": "2ef5d664b913bdb8a2bb6f5a9981e8e21256c380c9e30980d0bc288c8f0d214b",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 10,
+    "connectors": 11
+   }
+  },
+  {
+   "id": "ms-audit-subprocess-u",
+   "file": "1033/AUDIT_SUBPROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Audit with Subprocess",
+   "size_bytes": 63992,
+   "sha256": "f691e23887e4592557b99db88ee4e484cfbadce6389bdf0a9172088a0c616215",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 13,
+    "connectors": 12
+   }
+  },
+  {
+   "id": "ms-azureloganalytics-u",
+   "file": "1033/AZURELOGANALYTICS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Azure Log Analytics",
+   "size_bytes": 177431,
+   "sha256": "c269b23ac72abb455ebdfec272c8eb61483a1db51c2ec481abae9e7e52e959ed",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 16,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-azureomsworkspace-u",
+   "file": "1033/AZUREOMSWORKSPACE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Azure OMS Workspace",
+   "size_bytes": 46454,
+   "sha256": "9521ab23e950a35396fe1aa038e38e59415049844010e03f154c1aebed949925",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 9,
+    "connectors": 7
+   }
+  },
+  {
+   "id": "ms-azuresiterecovery-u",
+   "file": "1033/AZURESITERECOVERY_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Azure Site Recovery",
+   "size_bytes": 200451,
+   "sha256": "3438904bb6571e56074336238851f4d48d8b105de4a968286dc3b03001576335",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 40,
+    "connectors": 13
+   }
+  },
+  {
+   "id": "ms-basic-auditdiagram-u",
+   "file": "1033/BASIC_AUDITDIAGRAM_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Audit Diagram",
+   "size_bytes": 59101,
+   "sha256": "49ee67dd91fb71248b809cc790930519fd0fc47c768040d321e3b6d54987665d",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 8,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-basic-ganttchart-u",
+   "file": "1033/BASIC_GANTTCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Gantt Chart",
+   "size_bytes": 100452,
+   "sha256": "40d3dcc582b45da976cc32cdd4bb12b091b440fa667d4be6f48ca7cc30fa7dde",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 82,
+    "connectors": 4
+   }
+  },
+  {
+   "id": "ms-basic-home-network-u",
+   "file": "1033/BASIC_HOME_NETWORK_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Home Network",
+   "size_bytes": 88977,
+   "sha256": "34e763ac41e4d96ad2da98a0b90e7a7c4af9df82bb98af6a832963f5e2b0cf86",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 3,
+    "shapes": 8,
+    "connectors": 4
+   }
+  },
+  {
+   "id": "ms-basic-pestle-analysis-u",
+   "file": "1033/BASIC_PESTLE_ANALYSIS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "PESTLE Analysis",
+   "size_bytes": 35351,
+   "sha256": "59c17c139a917aa2566753ae75c00827f6df5cf8aad3310f1f9d27b6714f7a47",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 2,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-basic-strategy-diamond-u",
+   "file": "1033/BASIC_STRATEGY_DIAMOND_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Strategy Diamond",
+   "size_bytes": 43337,
+   "sha256": "27be9e6f38a1542da490e7f634ea3d53cbd53363f3d9ca2b0c49a3c56e43483b",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 2,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-basic-umlsequence-u",
+   "file": "1033/BASIC_UMLSEQUENCE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic UML Sequence",
+   "size_bytes": 52300,
+   "sha256": "8951a4e7eac11b8752e864c738bdc5261b8d8c1c93c84e03796b3bd892e2c0b3",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 3,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-basic-value-chain-u",
+   "file": "1033/BASIC_VALUE_CHAIN_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Value Chain",
+   "size_bytes": 43079,
+   "sha256": "2b59fbf49a74dfe69007ce5fc3173b9bc7ef9e2db5e16bcf06899f7690b7ab50",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 2,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-basiccircuit-diagram-u",
+   "file": "1033/BASICCIRCUIT_DIAGRAM_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Circuit Diagram",
+   "size_bytes": 67905,
+   "sha256": "da222f78961074f5c5fe2c8d10c67c8e08191e6e3ad8026ce11e093f93b2c02f",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 10,
+    "connectors": 12
+   }
+  },
+  {
+   "id": "ms-basicelectrical-diagram-u",
+   "file": "1033/BASICELECTRICAL_DIAGRAM_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Electrical Diagram",
+   "size_bytes": 76161,
+   "sha256": "d4803e931a5c5691ded3781f797bbf9cab3da83f6191d7c0ce96e3b63454d72f",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 9,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-beltorgchart-u",
+   "file": "1033/BELTORGCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Team Organization Chart",
+   "size_bytes": 179289,
+   "sha256": "c1e69ae4ae9b4190b6f9aa013154ddf13f8fbda3f5a86db4b16ebd4b8c4be3e8",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 10,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-bf-datavisualizer-u",
+   "file": "1033/BF_DATAVISUALIZER_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Flowchart - Data Visualizer",
+   "size_bytes": 117961,
+   "sha256": "7383b370aaa1625fb690d0e0f19aee4290644c3cfca5aca940410e683438de3a",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 11,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-blockp-u",
+   "file": "1033/BLOCKP_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Block Diagram with Perspective Template",
+   "size_bytes": 24339,
+   "sha256": "26b7b9b431d46708f6510dc995e53775e3216280349bd4ccb6fa99268b0b4edb",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 1,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-bpmn-address-change-process-u",
+   "file": "1033/BPMN_ADDRESS_CHANGE_PROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "BPMN Address Change Process",
+   "size_bytes": 161772,
+   "sha256": "b25aa9593b4d9d0f3d8a7ca78b67f8c66f2e16022eb4bf664d9a03b840d535b5",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 11,
+    "shapes": 10,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-bpmn-process-gateway-u",
+   "file": "1033/BPMN_PROCESS_GATEWAY_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "BPMN Process with Gateway",
+   "size_bytes": 136878,
+   "sha256": "314ef1aa04467856bfcd91921c0815cd521329cbffa44040a8eaa1534cec6585",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 7
+   }
+  },
+  {
+   "id": "ms-bpmn-process-multiple-roles-u",
+   "file": "1033/BPMN_PROCESS_MULTIPLE_ROLES_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "BPMN Process with Multiple Roles",
+   "size_bytes": 152520,
+   "sha256": "a94506f7b3a78316fc3dc52cc13d7036f44de81b83d438a6fcd914505228308b",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 10,
+    "shapes": 7,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-bstorm-expl-u",
+   "file": "1033/BSTORM_EXPL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Brainstorming Diagram for Product Explorations",
+   "size_bytes": 65402,
+   "sha256": "6973b78f73f99c6165147b31af079283d27f2028fe5dd475a4a90208d2a5e496",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 27,
+    "connectors": 25
+   }
+  },
+  {
+   "id": "ms-bstorm-lgnd-u",
+   "file": "1033/BSTORM_LGND_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Brainstorming diagram with legend",
+   "size_bytes": 214721,
+   "sha256": "5ec2d8c73b5fc65054ba68cc8caeb5c36c2a30713e003a3f5cb0d39003759b76",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 19,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-business-account-management-u",
+   "file": "1033/BUSINESS_ACCOUNT_MANAGEMENT_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Business Account Management",
+   "size_bytes": 123220,
+   "sha256": "702b73aaaa8b5f13021aada911dde6af9d6478aa0df1921c3db5e20c6aa8cc1f",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 2,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-causef-u",
+   "file": "1033/CAUSEF_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Cause and Effect Diagram Template",
+   "size_bytes": 27236,
+   "sha256": "dcb592443c030fafbb724be2899fc890febce61a1b511b76590a27c97cd4111c",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 0,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-cff-datavisualizer-u",
+   "file": "1033/CFF_DATAVISUALIZER_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Cross-Functional Flowchart - Data Visualizer",
+   "size_bytes": 121803,
+   "sha256": "82164df5b5650517a71db966e7391ad4a22fc1cd1c347f37542d7a6dbf0da3a6",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 11,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-cff-horizontal-u",
+   "file": "1033/CFF_HORIZONTAL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Horizontal Cross-Functional Flowchart",
+   "size_bytes": 74823,
+   "sha256": "ccc5e06e68694d89ddd5f4af8a3ef8a1b419315fa467f80bcb7bbc97a2fadf5a",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 7,
+    "shapes": 6,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-cff-sharedprocess-u",
+   "file": "1033/CFF_SHAREDPROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Shared Process Cross-Functional Flowchart",
+   "size_bytes": 77513,
+   "sha256": "d19a6714f02a92a6e9a4c2bd36526300e1429b985d5c73a1c9d951726d88707f",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 7,
+    "shapes": 8,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-cff-vertical-u",
+   "file": "1033/CFF_VERTICAL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Vertical Cross-Functional Flowchart",
+   "size_bytes": 92392,
+   "sha256": "4e30322442966b52086a3f3df27ca6d34e445ec18fe760b4a7003345715a573e",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 8,
+    "shapes": 11,
+    "connectors": 13
+   }
+  },
+  {
+   "id": "ms-chefautomatearchitectureonaws-u",
+   "file": "1033/CHEFAUTOMATEARCHITECTUREONAWS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Chef Automate Architecture on AWS",
+   "size_bytes": 67715,
+   "sha256": "249244f110cdd1bf748412387537950bca94bd3db9c9c57191a87d1fe04b695d",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 10,
+    "connectors": 3
+   }
+  },
+  {
+   "id": "ms-chencollegemanagement-u",
+   "file": "1033/CHENCOLLEGEMANAGEMENT_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "College Management Chen's diagram",
+   "size_bytes": 57918,
+   "sha256": "033b81386c0a9d02e34b9907ec5763074d91c361083d152f3af169047c9c7cc0",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 22,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-chenconstructionmanagement-u",
+   "file": "1033/CHENCONSTRUCTIONMANAGEMENT_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Construction Management Chen's diagram",
+   "size_bytes": 62004,
+   "sha256": "6d174b6cf7e6a764bfbc64ad6c3d2a89f7244c62b8251d7455b6b540083cab32",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 25,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-cheninsurancepolicy-u",
+   "file": "1033/CHENINSURANCEPOLICY_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Insurance Policy Chen's diagram",
+   "size_bytes": 62161,
+   "sha256": "69c4ab3c3d09efae95d118d6463ecf849b1befb658c6e3d2f9b4a22d439f3d06",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 22,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-circularorgchart-u",
+   "file": "1033/CIRCULARORGCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Organization Chart",
+   "size_bytes": 204054,
+   "sha256": "e67a399518e6032b4534d314279d7e2b29d1c07d42263f245b9eaa5414830381",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 13,
+    "connectors": 12
+   }
+  },
+  {
+   "id": "ms-crime-scene-investigation-u",
+   "file": "1033/CRIME_SCENE_INVESTIGATION_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Crime Scene Investigation",
+   "size_bytes": 672367,
+   "sha256": "801264de59d84197800ba18daba01d2a27535ea12ed0cb55cff7cd243d8e9238",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 69,
+    "connectors": 9
+   }
+  },
+  {
+   "id": "ms-crowhrmanagementsystem-u",
+   "file": "1033/CROWHRMANAGEMENTSYSTEM_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "HR management system Crow's foot diagram",
+   "size_bytes": 52763,
+   "sha256": "c57f52c340ef47382856bb20d0129e950441b08d8664388fcc99f87711dfb329",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 7,
+    "shapes": 38,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-crowinventorymanagement-u",
+   "file": "1033/CROWINVENTORYMANAGEMENT_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Inventory Management Crow's foot diagram",
+   "size_bytes": 53777,
+   "sha256": "909e0733062936d8573f5c564542351eec92ec6881172050c0dd0bdc5f69f61d",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 6,
+    "shapes": 37,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-crowpatientdatabase-u",
+   "file": "1033/CROWPATIENTDATABASE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Patient Database Crow's foot diagram",
+   "size_bytes": 51293,
+   "sha256": "f86f5d74e13962c394e1fd4a00d050fbf794e0487867536ec5f47a43e0e128db",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 6,
+    "shapes": 34,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-deptorgchart-u",
+   "file": "1033/DEPTORGCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Department Organization Chart",
+   "size_bytes": 181661,
+   "sha256": "ad12d08aadf331e70670f172016969eca0d4cbdb3037e1b908d9cd91057a62ba",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-document-approval-workflow-u",
+   "file": "1033/DOCUMENT_APPROVAL_WORKFLOW_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Document Approval Workflow",
+   "size_bytes": 74583,
+   "sha256": "e8debf3762b8957f05f8e17fa7fcc4688af32ad0d07b6afcfe70e6396c618148",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 2,
+    "shapes": 10,
+    "connectors": 11
+   }
+  },
+  {
+   "id": "ms-five-steps-of-risk-assessment-u",
+   "file": "1033/five_steps_of_risk_assessment_u.vstx",
+   "kind": "template-sample",
+   "template_name": "5 Steps of Risk Assessment",
+   "size_bytes": 64876,
+   "sha256": "f080da6eaa7477d4eb11427d3ddb2899c782a63babc3b1cf68dd8cd1fea7b358",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 12,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-four-steps-of-habit-making-u",
+   "file": "1033/four_steps_of_habit_making_u.vstx",
+   "kind": "template-sample",
+   "template_name": "4 Steps Of Habit Making",
+   "size_bytes": 61933,
+   "sha256": "f1cb18ec87238575c8f154588e25016f89c9988698c837c6a0c2c34aca8dab69",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-game-process-u",
+   "file": "1033/GAME_PROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Game Process SDL",
+   "size_bytes": 99029,
+   "sha256": "94da7973848504cababac3bc78aeee9a4b8647db56d27da9b011caea72ac7484",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 26,
+    "connectors": 22
+   }
+  },
+  {
+   "id": "ms-gittos3wwebhooks-u",
+   "file": "1033/GITTOS3WWEBHOOKS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Git to S3 Webhooks",
+   "size_bytes": 98429,
+   "sha256": "2b5200f87115e33b991f2af0466787694eadd35aff6611f345d9372cbc945f14",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 2,
+    "shapes": 7,
+    "connectors": 7
+   }
+  },
+  {
+   "id": "ms-hierarchicalorgchart-u",
+   "file": "1033/HIERARCHICALORGCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Hierarchical Organization Chart",
+   "size_bytes": 181139,
+   "sha256": "e03d415a0a245f683dededcd16aa5dcfcc60393168bec8404f6fb327be8d6d16",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-hub-and-spoke-model-u",
+   "file": "1033/HUB_AND_SPOKE_MODEL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Hub and Spoke Model",
+   "size_bytes": 62362,
+   "sha256": "4b1e1bf9794a0eb34b22b816b7a6c6e88015548eefa45733acec7945b3440c94",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 8,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-interface-uml-class-u",
+   "file": "1033/INTERFACE_UML_CLASS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Class Diagram with Interface",
+   "size_bytes": 68516,
+   "sha256": "40fad08dc367f5f27a84c04abb6d8d3f3702c962c92ab3a001a2369120d85330",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 5,
+    "shapes": 25,
+    "connectors": 3
+   }
+  },
+  {
+   "id": "ms-jenkins-server-on-azure-u",
+   "file": "1033/JENKINS_SERVER_ON_AZURE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Jenkins Server on Azure",
+   "size_bytes": 271448,
+   "sha256": "2b93629b4410f327d32da5b64bf9542fdc918e745c7ebd0928d954ad1b45c1e3",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 2,
+    "shapes": 21,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-job-application-process-u",
+   "file": "1033/JOB_APPLICATION_PROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Job Application Process",
+   "size_bytes": 100567,
+   "sha256": "e883d324032ebb4169a20cce53f34512768aa8d59e2283dbc5e55b9ff5105206",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 33,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-mediumenterprisecorpnet-u",
+   "file": "1033/MEDIUMENTERPRISECORPNET_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Medium Enterprise Network",
+   "size_bytes": 141567,
+   "sha256": "9c59147f79a45c69196cc88b0fb92ffd3461c601891d8f5b7083366fb4fdded4",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 25,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-msffbanalysis-u",
+   "file": "1033/MSFFBANALYSIS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Microsoft Forms Feedback Analysis",
+   "size_bytes": 443268,
+   "sha256": "0be2c40909615676ab4f926372f697caff404b7d556e94a67afa43b574d71177",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 7,
+    "shapes": 42,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-msflow-u",
+   "file": "1033/MSFLOW_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Starter Diagram",
+   "size_bytes": 244659,
+   "sha256": "d14481a7b99d360a11f9876c185dbf2a47f620894d4d06b105190a719bf33017",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 0,
+    "shapes": 25,
+    "connectors": 2
+   }
+  },
+  {
+   "id": "ms-msflowspwf-u",
+   "file": "1033/MSFLOWSPWF_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Microsoft SharePoint Flow Workflow",
+   "size_bytes": 242506,
+   "sha256": "398ddb4a6356c5549ca404c1d5c5e2f9120b9e16d983a04d1f5cf566950d6ad5",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 0,
+    "shapes": 25,
+    "connectors": 2
+   }
+  },
+  {
+   "id": "ms-msflowspwfapproval-u",
+   "file": "1033/MSFLOWSPWFAPPROVAL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "SharePoint Approval Workflows",
+   "size_bytes": 193234,
+   "sha256": "a749e56d9abf2481aa0435de68400a526c1218a21fa7d158cce5535675cb3689",
+   "pages_measured": 3,
+   "counts": {
+    "containers": 1,
+    "shapes": 59,
+    "connectors": 27
+   }
+  },
+  {
+   "id": "ms-msfmgrappprocess-u",
+   "file": "1033/MSFMGRAPPPROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Manager Approval Process",
+   "size_bytes": 373732,
+   "sha256": "e0a10fece49f5d980265512c4902fbd8e99e6b31b0ba3ab7c4f43856a8503c48",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 1,
+    "shapes": 21,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-msfpurchaseorderwf-u",
+   "file": "1033/MSFPURCHASEORDERWF_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Purchase Order Workflow",
+   "size_bytes": 413003,
+   "sha256": "fa780768cc74d855916fcc0ed6362d266e8b0e0f1e8f42b15369c0fc05e5029c",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 7,
+    "shapes": 25,
+    "connectors": 9
+   }
+  },
+  {
+   "id": "ms-msftravelreqappprocess-u",
+   "file": "1033/MSFTRAVELREQAPPPROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Travel Request Approval Workflow",
+   "size_bytes": 355801,
+   "sha256": "eb4bfc1aa56014a64dd1cecaefad1e5bacc677bb49676446c13f413adc184737",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 6,
+    "shapes": 32,
+    "connectors": 12
+   }
+  },
+  {
+   "id": "ms-new-bf-datavisualizer-u",
+   "file": "1033/NEW_BF_DATAVISUALIZER_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic Flowchart - Data Visualizer",
+   "size_bytes": 99900,
+   "sha256": "906b14947b6ccdfff2ba39d2e411621fe8935ed638550267fb265c7afacad839",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 11,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-new-cff-datavisualizer-u",
+   "file": "1033/NEW_CFF_DATAVISUALIZER_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Cross-Functional Flowchart - Data Visualizer",
+   "size_bytes": 103323,
+   "sha256": "98dc5813c58d2ae9d26ea0e01ff99de222fb12d0d5de65bd7da3d71beef640d3",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 11,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-new-crowinventorymanagement-u",
+   "file": "1033/NEW_CROWINVENTORYMANAGEMENT_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Inventory Management Crow's foot diagram",
+   "size_bytes": 44902,
+   "sha256": "65aa4aeea172ecbb156aaa44bcbcbf7284eee2521868187f0bdd977ce907669c",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 6,
+    "shapes": 37,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-new-crowpatientdatabase-u",
+   "file": "1033/NEW_CROWPATIENTDATABASE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Patient Database Crow's foot diagram",
+   "size_bytes": 42610,
+   "sha256": "e1e45b823f80b48a9cf30b7b498a053319bd7d7826368f2348c228028d2bcb69",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 6,
+    "shapes": 34,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-new-xfunc-u",
+   "file": "1033/NEW_XFUNC_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Cross-Functional Flowchart Template",
+   "size_bytes": 32781,
+   "sha256": "4c0203d9b57c56f7f3d7c5bf6b63bc1dfa15bc921fe500d5af26751efc8c59f7",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 6,
+    "shapes": 0,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-onpageflowchart-u",
+   "file": "1033/ONPAGEFLOWCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "On-Page Reference Flowchart",
+   "size_bytes": 67784,
+   "sha256": "ed3613c0fc1ad3363018c33215a08e1207401aa54832fc869d5efe6ef4e1cf97",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 10,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-organizational-communication-plan-u",
+   "file": "1033/ORGANIZATIONAL_COMMUNICATION_PLAN_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Organizational Communication Plan",
+   "size_bytes": 35532,
+   "sha256": "ba5ef05bc80dbd30a145abeaf80a09c8d87f97456f99b8579f71400ade4a1187",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 2,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-pbasln-u",
+   "file": "1033/PBASLN_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Baseline Report",
+   "size_bytes": 133571,
+   "sha256": "af5bf95fa0c37ab62a56425b0e7d1339c05e90cf17f1b36761a156eb9650e056",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 5,
+    "shapes": 11,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-pcrtsk-u",
+   "file": "1033/PCRTSK_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Critical Tasks Status Report",
+   "size_bytes": 146420,
+   "sha256": "bc5113b3a058bc2dc7ea2d0dbf65be6534aed0acce097b4f300a264822dfbd70",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 3,
+    "shapes": 14,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-pcshfl-u",
+   "file": "1033/PCSHFL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Cash Flow Report",
+   "size_bytes": 129867,
+   "sha256": "744b39fea3fb9a32796d3b8e21793ddd94841a25a41a68c98b1ce1ea46d1b9b8",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 3,
+    "shapes": 9,
+    "connectors": 4
+   }
+  },
+  {
+   "id": "ms-personalize-marketing-solution-using-azure-u",
+   "file": "1033/PERSONALIZE_MARKETING_SOLUTION_USING_AZURE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Personalized marketing solution using Azure",
+   "size_bytes": 221658,
+   "sha256": "989bec6eafc935409e8e0e05f939503708a80cc3c0c1a85637335599a0b8edb2",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 10,
+    "connectors": 9
+   }
+  },
+  {
+   "id": "ms-phone-conn-u",
+   "file": "1033/PHONE_CONN_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Phone Connection SDL",
+   "size_bytes": 82972,
+   "sha256": "66006ee4cc9e132796b9cc9a2165477f51c958ebc9869d6d714987b36f3e1af0",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 11,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-planning-a-week-step-by-step-u",
+   "file": "1033/planning_a_week_step_by_step_u.vstx",
+   "kind": "template-sample",
+   "template_name": "Planning a Week Step By Step",
+   "size_bytes": 88484,
+   "sha256": "b7f44a305015cf90c4ec475862319e775cc87336c2d16c527682d7f7bd6c80ce",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 6,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-prsavl-u",
+   "file": "1033/PRSAVL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Resource Availability Report",
+   "size_bytes": 275954,
+   "sha256": "88f4c84a2121ffa073ecaa84937d62396b1950d5a1f66740fafcf70c3ac6eabd",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 3,
+    "shapes": 12,
+    "connectors": 7
+   }
+  },
+  {
+   "id": "ms-prssts-u",
+   "file": "1033/PRSSTS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Resource Status Report",
+   "size_bytes": 123777,
+   "sha256": "912c7e6b23eeef9c330c8900b11cce9a6cbe6855541c7e372029771d858d4dcd",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 3,
+    "shapes": 12,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-ptskst-u",
+   "file": "1033/PTSKST_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Task Status Report",
+   "size_bytes": 144492,
+   "sha256": "2bae453efa7735fa51befe03cf53064f16d8bd4d6921a997a4122fd04976d576",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 5,
+    "shapes": 11,
+    "connectors": 4
+   }
+  },
+  {
+   "id": "ms-quick-retrospectives-templates-u",
+   "file": "1033/QUICK_RETROSPECTIVES_TEMPLATES_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Quick Retrospectives Templates",
+   "size_bytes": 38294,
+   "sha256": "a9bc2cfcf2a5c083d7f7d641d5c16f5c7e0f1f3ac6d1b591e49d6a7be091dfea",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 13,
+    "connectors": 1
+   }
+  },
+  {
+   "id": "ms-retail-and-e-commerce-solution-using-azure-cosmos-db-u",
+   "file": "1033/RETAIL_AND_E-COMMERCE_SOLUTION_USING_AZURE_COSMOS_DB_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Retail and e-commerce solution using Azure Cosmos Db",
+   "size_bytes": 432417,
+   "sha256": "836f5a20533f57260f17b4ba8581d5145694438a737426dee1ed36cd8aac2ddb",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-sapusingsios-u",
+   "file": "1033/SAPUSINGSIOS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "SAP using SIOS",
+   "size_bytes": 122173,
+   "sha256": "702c9e91357842006812a0441fd6fcd7a9b20d0e91db6f1f73e8830bcaf1b91c",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 12,
+    "shapes": 26,
+    "connectors": 9
+   }
+  },
+  {
+   "id": "ms-shapetacularorgchart-u",
+   "file": "1033/SHAPETACULARORGCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Corporate Organization Chart",
+   "size_bytes": 183211,
+   "sha256": "864e96132bf61caecb0d8305f7397f12da41d8b0ec59945e6007c9a8696325cd",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 13,
+    "connectors": 12
+   }
+  },
+  {
+   "id": "ms-sharepoint-extranettopology-u",
+   "file": "1033/SHAREPOINT_EXTRANETTOPOLOGY_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "SharePoint Extranet Topology",
+   "size_bytes": 99757,
+   "sha256": "5fcf8c38ce985ad82d354e429b10e0d96b516c5b522fb9300054607c83d43f60",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 13,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-simple-workflow-u",
+   "file": "1033/SIMPLE_WORKFLOW_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Simple Workflow",
+   "size_bytes": 56716,
+   "sha256": "43cf69de56eac72132e10c9eaf1ce75a19eae3883645a90b56d9dd9700f4bf8d",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 1,
+    "shapes": 4,
+    "connectors": 3
+   }
+  },
+  {
+   "id": "ms-smallmedium-business-network-u",
+   "file": "1033/SMALLMEDIUM_BUSINESS_NETWORK_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Small/Medium Business Network",
+   "size_bytes": 100712,
+   "sha256": "4c29b0e95123b084bce5e9f0e5ebc4a8b67b0c93985edae61ffc476eb565e5d7",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 1,
+    "shapes": 10,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-smart-goals-u",
+   "file": "1033/SMART_GOALS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "SMART Goals",
+   "size_bytes": 63744,
+   "sha256": "f38b7a7e08d39a112ee3f6559e5472df4a8c0ff4030e7059e73e14d197c41926",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 13,
+    "connectors": 1
+   }
+  },
+  {
+   "id": "ms-social-distancing-u",
+   "file": "1033/SOCIAL_DISTANCING_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Workplace Planning with Social Distancing",
+   "size_bytes": 3055528,
+   "sha256": "d1d6d12ea79cf43954e974dbc3df27af6f36a3d27de7a96c21ec515dbb361061",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 6,
+    "shapes": 359,
+    "connectors": 126
+   }
+  },
+  {
+   "id": "ms-stakeholder-map-u",
+   "file": "1033/STAKEHOLDER_MAP_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Stakeholder Map",
+   "size_bytes": 71214,
+   "sha256": "eb76501a43fd4ed8ce7cab3688e43a1d37a4b3720cd42397916ddb7234ed7834",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 17,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-subprocessflowchart-u",
+   "file": "1033/SUBPROCESSFLOWCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Decision Branches Flowchart",
+   "size_bytes": 67849,
+   "sha256": "907f7e81914e778a431ccd64a8468a6fc68adba74da3e90e85134d56683450f8",
+   "pages_measured": 2,
+   "counts": {
+    "containers": 0,
+    "shapes": 10,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-subtasks-ganttchart-u",
+   "file": "1033/SUBTASKS_GANTTCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Gantt Chart with Subtasks",
+   "size_bytes": 116304,
+   "sha256": "e4024094d12f08a070dc71f2c816c122105b293eedd975de642213c597a72300",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 103,
+    "connectors": 3
+   }
+  },
+  {
+   "id": "ms-the-disciplines-of-user-experience-design-u",
+   "file": "1033/THE_DISCIPLINES_OF_USER_EXPERIENCE_DESIGN_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "The disciplines of User Experience design",
+   "size_bytes": 64333,
+   "sha256": "6cafb1097c3dfcaa86eeff54e82dc4df9dbaacce847cf696d2dcdb053c843169",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 18,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-timeln-cylindrical-u",
+   "file": "1033/TIMELN_CYLINDRICAL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Cylindrical Timeline",
+   "size_bytes": 88825,
+   "sha256": "e8559c31bc46576b613898b110e18f6e5c9a130e517c2ac96cd893db971bc329",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 1
+   }
+  },
+  {
+   "id": "ms-timeln-expandedblock-u",
+   "file": "1033/TIMELN_EXPANDEDBLOCK_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Expanded Block Timeline",
+   "size_bytes": 128524,
+   "sha256": "b785c3c5e0d06cad2e530f18ae920bba0f75734b6ef2dd89cc176084b880123a",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 11,
+    "connectors": 2
+   }
+  },
+  {
+   "id": "ms-timeln-verticalblock-u",
+   "file": "1033/TIMELN_VERTICALBLOCK_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Vertical Block Timeline",
+   "size_bytes": 100174,
+   "sha256": "4b41b663d70b911c0be7879dadd50d6a739ad5fbcf5e6219332c1ccde28ac677",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 8,
+    "connectors": 1
+   }
+  },
+  {
+   "id": "ms-to-do-list-u",
+   "file": "1033/to_do_list_u.vstx",
+   "kind": "template-sample",
+   "template_name": "Weekly Planner",
+   "size_bytes": 40798,
+   "sha256": "f59ec1b4c866afb94178dde5807a784a524ae6e52747a2c37254a5063c9bfa92",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 7,
+    "shapes": 51,
+    "connectors": 0
+   }
+  },
+  {
+   "id": "ms-tuckmans-model-u",
+   "file": "1033/TUCKMANS_MODEL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Tuckmans Model",
+   "size_bytes": 52848,
+   "sha256": "ac38520ca57a62e5a2554568084400329dc83fc100ab01c3b7d97d0f1943c8aa",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 6,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-ucmnme-basic-u",
+   "file": "1033/UCMNME_BASIC_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic UML Communication Diagram",
+   "size_bytes": 56149,
+   "sha256": "d3fed6a4740eefc00c7d3acd0f33eac3ff3ccc888711f3713fce4a4f37d5dacf",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 6,
+    "connectors": 5
+   }
+  },
+  {
+   "id": "ms-ucmnme-sequenceexpression-1-u",
+   "file": "1033/UCMNME_SEQUENCEEXPRESSION_1_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Communication Diagram - Collaboration",
+   "size_bytes": 62407,
+   "sha256": "c6d0280be96ec729f8572577fb1e45acd587a2924dc853f04fe3c176944a386d",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 5,
+    "connectors": 13
+   }
+  },
+  {
+   "id": "ms-ucmnme-sequenceexpression-2-u",
+   "file": "1033/UCMNME_SEQUENCEEXPRESSION_2_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Communication Diagram with Sequence Expression",
+   "size_bytes": 53641,
+   "sha256": "c971c2c6c017443dc9f80dac99ee5fd45a87171d3290c6b4525abf3ccd560579",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 5,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-ucomme-basic-u",
+   "file": "1033/UCOMME_BASIC_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic UML Component Diagram",
+   "size_bytes": 70526,
+   "sha256": "129bed70d594f6adb18f75098cfdec09b49e7908e53474e97280925841b445c6",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 3,
+    "shapes": 5,
+    "connectors": 1
+   }
+  },
+  {
+   "id": "ms-ucomme-module-u",
+   "file": "1033/UCOMME_MODULE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Component Diagram with Module",
+   "size_bytes": 74983,
+   "sha256": "85615ad37cc85ba3fd62a9f394b9742090f2a7078a79b63c31f1acee8989315e",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 8,
+    "connectors": 2
+   }
+  },
+  {
+   "id": "ms-ucomme-subsystem-u",
+   "file": "1033/UCOMME_SUBSYSTEM_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Component Diagram with Sub-system",
+   "size_bytes": 72268,
+   "sha256": "cfc994b5780711f7a38736e5e9bb5327e58145ea51579c24d6639b4ff3c1f88f",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 5,
+    "shapes": 5,
+    "connectors": 1
+   }
+  },
+  {
+   "id": "ms-udepme-basic-u",
+   "file": "1033/UDEPME_BASIC_U.VSTx",
+   "kind": "template-sample",
+   "template_name": "Basic UML Deployment Diagram",
+   "size_bytes": 68033,
+   "sha256": "c8e2c0aca5ad56776f481bb5075ac30d42f18885247a7fd24faeded480a0b628",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 4,
+    "connectors": 3
+   }
+  },
+  {
+   "id": "ms-udepme-hierarchical-nodes-u",
+   "file": "1033/UDEPME_HIERARCHICAL_NODES_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Deployment Diagram with Hierarchical Nodes",
+   "size_bytes": 67470,
+   "sha256": "57bb8bdbaf854ea66877985125997cf54da682b82b6f1856ed146da3f119a9c3",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 4,
+    "connectors": 2
+   }
+  },
+  {
+   "id": "ms-udepme-manifestation-u",
+   "file": "1033/UDEPME_MANIFESTATION_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Deployment Diagram with Manifestation",
+   "size_bytes": 84260,
+   "sha256": "fd112b6f67c11f2795b4047917d5c1718682498ef422fa71fce364fc8629eb9a",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 3,
+    "shapes": 5,
+    "connectors": 2
+   }
+  },
+  {
+   "id": "ms-uml-class-u",
+   "file": "1033/UML_CLASS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic UML Class Diagram",
+   "size_bytes": 55916,
+   "sha256": "0bd4e51fc1a53e826be820a229ca655c689ef8fd8ef4c18cf540399900211905",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 4,
+    "shapes": 21,
+    "connectors": 3
+   }
+  },
+  {
+   "id": "ms-uml-usecase-dependencies-u",
+   "file": "1033/UML_USECASE_DEPENDENCIES_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Use Case with Dependencies",
+   "size_bytes": 61408,
+   "sha256": "bb0925f51022833b86cbc14125d6d98e475dfec2e186c4c6130724f92518d70c",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 9,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-uml-usecase-subsystem-u",
+   "file": "1033/UML_USECASE_SUBSYSTEM_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Use Case with Subsystem",
+   "size_bytes": 60878,
+   "sha256": "b2edf8f030007886b463353f09cff8984184bd96f2dd415b0128f7f5594eed09",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 1,
+    "shapes": 6,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-uml-usecase-u",
+   "file": "1033/UML_USECASE_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Basic UML Use Case",
+   "size_bytes": 43711,
+   "sha256": "39b8407448e51b3b9ff1539926b884a6dd3633be8d1bd179c73d754f078dc56d",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 6
+   }
+  },
+  {
+   "id": "ms-umlsequence-interactionframe-u",
+   "file": "1033/UMLSEQUENCE_INTERACTIONFRAME_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Sequence with Interaction Frame",
+   "size_bytes": 55009,
+   "sha256": "6397d3a681b5a656104588817fc4ff499e61a9ef6d648ef3d64099c7a195bf05",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 1,
+    "shapes": 6,
+    "connectors": 11
+   }
+  },
+  {
+   "id": "ms-umlsequence-loop-u",
+   "file": "1033/UMLSEQUENCE_LOOP_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "UML Sequence with Loop",
+   "size_bytes": 52629,
+   "sha256": "e266f901ed5b0a32fc60ea28be3f2d4dee04b774448f84b69faa357b0d90c60a",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 4,
+    "connectors": 10
+   }
+  },
+  {
+   "id": "ms-verticalflowchart-u",
+   "file": "1033/VERTICALFLOWCHART_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Vertical Flowchart",
+   "size_bytes": 76861,
+   "sha256": "984cfc6a21c57c1d04fbbc4a456f3c0f3809d2ea42bcb95f62741d4450837147",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 7
+   }
+  },
+  {
+   "id": "ms-workflow-departmental-u",
+   "file": "1033/WORKFLOW_DEPARTMENTAL_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Departmental Workflow",
+   "size_bytes": 99686,
+   "sha256": "71531164d6b343dfc8adcae628b039f6ddf12a0828fe47e9475497fcca4d939c",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 8
+   }
+  },
+  {
+   "id": "ms-workflow-function-u",
+   "file": "1033/WORKFLOW_FUNCTION_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Function Workflow",
+   "size_bytes": 93516,
+   "sha256": "2f388ea7bfe1da1ca30f49b79ff9342c7d848079a0b630a5014a0e2178497670",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 7
+   }
+  },
+  {
+   "id": "ms-workflow-process-u",
+   "file": "1033/WORKFLOW_PROCESS_U.VSTX",
+   "kind": "template-sample",
+   "template_name": "Process Workflow",
+   "size_bytes": 106526,
+   "sha256": "3e3513aae972e673714e3e1c9415f9a4160a01cd4d4f89a651b4396d47cc74b9",
+   "pages_measured": 1,
+   "counts": {
+    "containers": 0,
+    "shapes": 7,
+    "connectors": 8
+   }
+  }
+ ],
+ "examined_not_measured": [
+  {
+   "file": "1033/ACTDIR_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/AUDIT_DATAVISUALIZER_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/AUDIT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/AWSDIAGRAMS_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/AZUREDIAGRAMS_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/BASFLO_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/BASICD_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/BLOCK_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/BPMN_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/BSTORM_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/BUSINESS_FRAMEWORKS_TEMPLATE_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/CALNDR_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/CEILPL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/CHART_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/COMOLE_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/CONLOG_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/CYCLE_DIAGRAM_TEMPLATE_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DATFLO_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DATMOD_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DBCHEN_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DBCROW_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DBIDEF1X_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DBMODL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DBUML_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DRILLD_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DTLNET_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DTLNME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/DWGCNV_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/EECHIP_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/EEGENR_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/EEICS_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/EESYS_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/ELETEL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/ENTAPP_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/EPC_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/FAULT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/FLRPLN_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/FPALL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/GANTT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/HOMPLN_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/HVAC_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/IDEF0_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/ITIL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/LDAPDR_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/MAP3D_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/MAP_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/MEALL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/MRKTDG_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NETW_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NETWME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_AUDIT_DATAVISUALIZER_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_AUDIT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_BASFLO_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_BASICD_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_CALNDR_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_CHART_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_COMOLE_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_DATFLO_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_FAULT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_GANTT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_ITIL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_ORGCH_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_ORGWIZ_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/NEW_SIXSIG_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/OFFLYT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/ORGCH_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/ORGWIZ_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PBLANK_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PEDG_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PEPIPE_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PERT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PIN_MARKING_TEMPLATE_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PLMPIP_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PLTLYT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PROCESS_STEPS_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/PSTRCT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/RACK_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/REMOTE_WORK_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/SDL_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/SECACC_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/SITPLN_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/SIXSIG_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/SPCPLN_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/SPW2_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/SPW_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/step_infographics_u.vstx",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/TIMELN_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/to_do_list_template_u.vstx",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/TQM_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/UACTME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/UCMNME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/UCOMME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/UDEPME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/USEQME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/USTAME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/USTRME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/UUSEME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/VSM_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/WEBMAP_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/WEBSIT_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/WFDGM_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/WRKFLO_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/WRKFME_U.VSTX",
+   "reason": "no placed shapes"
+  },
+  {
+   "file": "1033/XFUNC_U.VSTX",
+   "reason": "no placed shapes"
+  }
+ ]
+}
