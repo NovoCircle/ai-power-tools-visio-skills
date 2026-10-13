@@ -1,0 +1,12 @@
+# Skills source of truth and sha256 pins: text assets must hash identically in git,
+# the working tree and any release asset, so line endings are pinned to LF.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.vsdx binary
+*.vssx binary
+*.vstx binary
+*.vsd binary
+*.zip binary
