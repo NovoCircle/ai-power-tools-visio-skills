@@ -35,6 +35,7 @@ plugins/ai-power-tools-visio/
   .claude-plugin/plugin.json         The plugin: skills only, no server
   skills/
     _shared/references/              Reference material several skills link to
+    _shared/tools/                   Fidelity checker (copied from the EA skills) and its page-read adapter
     <skill-name>/SKILL.md            One directory per skill (none yet)
 manifest.json                        Generated: every shipped file and its sha256
 tools/
