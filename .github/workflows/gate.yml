@@ -20,13 +20,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install pytest
-        run: python -m pip install --quiet pytest
+      - name: Install pytest and PyYAML
+        # PyYAML is for the shared standards-file tools under plugins/.
+        run: python -m pip install --quiet pytest pyyaml
 
-      - name: Test the tools
+      - name: Test the tools and the shared standards
         # Run this BEFORE the gate: a gate that has stopped checking passes
         # everything, so its own result means nothing until these pass.
-        run: python -m pytest tools -q
+        run: python -m pytest tools plugins -q
 
       - name: Run the gate
         run: python tools/gate.py

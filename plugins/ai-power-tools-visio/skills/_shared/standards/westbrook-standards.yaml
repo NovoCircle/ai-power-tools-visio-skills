@@ -1,0 +1,225 @@
+# Westbrook Bank - house diagram standards (worked example)
+#
+# DRAFT 0.1. The shape of this file is a proposal, not a settled format: see
+# README.md in this directory ("Status"). Westbrook Bank is a fictitious
+# organization; the stereotypes, tags and diagram types are the ones the
+# Westbrook canon declares. Substitute your own technology, stereotypes and
+# firm. Nothing here assumes you have the Westbrook model.
+#
+# Lines marked `# soft:` hold a value that depends on the notation library's
+# schema, which is not settled. README.md lists what will need aligning.
+
+contract: apt-standards
+contract_version: "0.1"
+id: westbrook-standards
+name: Westbrook Bank diagram standards
+owner: Westbrook Bank Enterprise Architecture
+description: >
+  How Westbrook Bank draws architecture diagrams: applications blue,
+  infrastructure gray, anything external dashed, and every page carrying a
+  title block with its revision and author role, plus a legend.
+
+# Every length below is in inches.
+unit: in
+
+# Named colors. Change one here and every rule that uses it follows.
+colors:
+  application_fill: "#DCE9F7"
+  application_line: "#1F4E79"
+  infrastructure_fill: "#E7E6E6"
+  infrastructure_line: "#595959"
+  text: "#1F1F1F"
+  line: "#404040"
+
+type:
+  font_family: Segoe UI
+  font_color: $text
+  sizes:               # points
+    shape_label: 10
+    connector_label: 9
+    title: 16
+    note: 9
+    legend: 9
+
+page:
+  size: Letter
+  orientation: landscape
+  margin: 0.5
+
+# Palette and meaning. Every rule that matches a thing applies, in order; a
+# later rule wins per field. `external` therefore adds a dashed outline to the
+# vendor system without taking away its blue.
+paint:
+  - id: application
+    label: Application
+    when:
+      kinds: [WBABusinessApplication, WBABusinessService, WBASystemOfRecord, WBAVendorSystem]  # soft: concept names
+    style:
+      fill_color: $application_fill
+      line_color: $application_line
+      line_weight: 1.0
+    legend: "Blue: an application Westbrook Bank builds, runs or buys"
+
+  - id: infrastructure
+    label: Infrastructure
+    when:
+      kinds: [WBATechnologyNode]  # soft: concept names
+    style:
+      fill_color: $infrastructure_fill
+      line_color: $infrastructure_line
+      line_weight: 1.0
+    legend: "Gray: infrastructure the applications run on"
+
+  - id: external
+    label: External
+    when:
+      kinds: [WBAVendorSystem, WBAExternalCall]  # soft: concept names
+    style:
+      line_pattern: dash
+    legend: "Dashed outline: external to Westbrook Bank"
+
+lines:
+  routing: orthogonal  # soft: the library's routing names are EA's
+  default:
+    line_color: $line
+    line_weight: 1.0
+    line_pattern: solid
+    end_arrow: open-arrow
+  by_kind:             # soft: relationship names
+    Uses:
+      style:
+        end_arrow: open-arrow
+      legend: "Solid line, open arrow: the source uses the target"
+    Flows:
+      style:
+        end_arrow: filled-triangle
+      legend: "Solid line, filled arrow: information flows from source to target"
+    realizes:
+      style:
+        line_pattern: dot
+        end_arrow: open-arrow
+      legend: "Dotted line: the source realizes the target"
+
+# Page furniture. The keys are the render plan's furniture kinds.
+furniture:
+  border:
+    enabled: true
+    margin: 0.25
+    style:
+      line_color: $line
+      line_weight: 0.75
+
+  title-block:
+    enabled: true
+    position: {anchor: top-left}
+    width: content
+    height: 0.6
+    format: table
+    fields:
+      - {name: title, label: Title, source: view.title, required: true}
+      - {name: revision, label: Revision, source: view.revision, required: true}
+      - {name: author_role, label: Author role, source: constant, value: Enterprise Architecture, required: true}
+      - {name: date, label: Date, source: generated_at}
+    style:
+      line_color: $line
+      line_weight: 0.75
+
+  legend:
+    enabled: true
+    mode: derived
+    title: Legend
+    only_used: true
+    position: {anchor: bottom-right}
+    width: 3.2
+    height: auto
+
+  note:
+    enabled: true
+    title: Notes
+    source: view.description
+    position: {anchor: bottom-left}
+    width: 5.5
+    height: auto
+
+  logo:
+    enabled: false     # no image ships with this example; set `asset` to use one
+
+# Shape Data: which rows a shape of a kind carries, and which are shown on it.
+shape_data:
+  - id: application_rows
+    target: shape
+    when:
+      kinds: [WBABusinessApplication, WBABusinessService, WBASystemOfRecord, WBAVendorSystem, WBATechnologyNode]  # soft: concept names
+    rows:
+      - name: criticality
+        label: Criticality
+        type: list
+        values: [Mission-Critical, Business-Critical, Important, Standard]
+        show_on_shape: true
+        graphic: {type: color, position: top-right}  # soft: data graphics are not settled
+      - name: lifecycle
+        label: Lifecycle
+        type: list
+        values: [Strategic, Current, Sunset, Deprecated, Retired]
+      - name: businessOwner
+        label: Business owner
+        type: string
+
+  - id: connector_rows
+    target: connector
+    when:
+      kinds: [Uses, Flows]  # soft: relationship names
+    rows:
+      - name: integrationPattern
+        label: Integration
+        type: list
+        values: [API, Batch, Event, File]
+      - name: slaTier
+        label: SLA tier
+        type: list
+        values: [Gold, Silver]
+
+# The practice's own diagram types, in the form the notation library uses.
+diagram_types:
+  WestbrookContextView:
+    display_name: Westbrook context diagram
+    description: One application and what it uses, for the architecture review board.
+    refines: {language: WestbrookBankArchitecture, type: WBAApplicationView}  # soft: library ids
+    admits: [WBABusinessApplication, WBASystemOfRecord, WBAVendorSystem]      # soft: concept names
+    grammar: layered-bands                                                    # soft: grammar vocabulary
+    title: drawn                                                              # soft: title vocabulary
+    sizing:                                                                   # soft: unit
+      default: {w: 1.75, h: 0.9}
+      WBASystemOfRecord: {w: 2.0, h: 1.0}
+    spacing:                                                                  # soft: key names and unit
+      item_gap_x: 0.4
+      item_gap_y: 0.3
+      band_gap: 0.3
+      band_pad_x: 0.2
+      band_pad_y: 0.2
+      label_height: 0.35
+    routing: {default: orthogonal}                                            # soft: route names
+    channels:                                                                 # soft: channel names
+      fill: "House category: application blue, infrastructure gray"
+      claimed:
+        border: "A dashed outline marks a thing external to Westbrook Bank"
+      free: [border_width, opacity, icon]
+
+  WestbrookDeploymentView:
+    display_name: Westbrook deployment view
+    description: Where applications run, drawn as nested boxes.
+    admits: [WBATechnologyNode, WBABusinessApplication]                       # soft: concept names
+    grammar: nested-grid                                                      # soft: grammar vocabulary
+    title: drawn                                                              # soft: title vocabulary
+    sizing:                                                                   # soft: unit
+      default: {w: 1.6, h: 0.8}
+    spacing:                                                                  # soft: key names and unit
+      grid_pad: 0.25
+      item_gap_x: 0.3
+      item_gap_y: 0.3
+    routing: {default: straight}                                              # soft: route names
+    channels:                                                                 # soft: channel names
+      fill: "House category: application blue, infrastructure gray"
+    page: {size: A3, orientation: landscape}
+    furniture:
+      note: {enabled: false}

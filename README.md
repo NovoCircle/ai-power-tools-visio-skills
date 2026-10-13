@@ -35,6 +35,7 @@ plugins/ai-power-tools-visio/
   .claude-plugin/plugin.json         The plugin: skills only, no server
   skills/
     _shared/references/              Reference material several skills link to
+    _shared/standards/               The house standards file: format, checker, precedence, Westbrook example
     <skill-name>/SKILL.md            One directory per skill (none yet)
 manifest.json                        Generated: every shipped file and its sha256
 tools/
@@ -50,7 +51,7 @@ tools/
 Run these from the repository root, in the worktree you are working in:
 
 ```
-python -m pytest tools -q
+python -m pytest tools plugins -q
 python tools/regen-manifest.py     # after editing any shipped file
 python tools/gate.py
 ```
