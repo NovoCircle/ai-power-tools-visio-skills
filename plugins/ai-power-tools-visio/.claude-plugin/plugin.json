@@ -1,0 +1,10 @@
+{
+  "name": "ai-power-tools-visio",
+  "version": "0.0.0",
+  "description": "Skills for AI Power Tools for Microsoft Visio. Needs the AI Power Tools for Microsoft Visio Claude Desktop extension (the MCP server) installed. Requires Microsoft Visio on Windows.",
+  "author": {
+    "name": "NovoCircle"
+  },
+  "homepage": "https://github.com/NovoCircle/ai-power-tools-visio-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1.0",
+  "bundle_version": "0.0.0",
+  "released_at": null,
+  "min_server_version": "2.0.0",
+  "skills": [
+    {
+      "name": "_shared",
+      "title": "Shared references",
+      "description": "Reference material several Visio skills link to: the Westbrook Bank example organization. Not a skill - it has no SKILL.md and does not load as one. It installs beside the skills so their relative links resolve.",
+      "version": "0.0.0",
+      "min_server_version": "2.0.0",
+      "files": [
+        "_shared/references/westbrook-example.md"
+      ],
+      "sha256": {
+        "_shared/references/westbrook-example.md": "9abd33c64124acaacf3c78d9eac2b596421fc5be2845bb623b833c665a4c55bf"
+      }
+    }
+  ]
+}

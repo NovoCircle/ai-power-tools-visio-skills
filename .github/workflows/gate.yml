@@ -1,0 +1,77 @@
+name: Release gate
+
+# The gate is what we accept releases on, so it runs on every push and pull
+# request rather than when someone remembers. A CRLF manifest once shipped from
+# the sibling EA skills library and broke every hash check on the customer's
+# machine; this is the check that stops a repeat.
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pytest
+        run: python -m pip install --quiet pytest
+
+      - name: Test the tools
+        # Run this BEFORE the gate: a gate that has stopped checking passes
+        # everything, so its own result means nothing until these pass.
+        run: python -m pytest tools -q
+
+      - name: Run the gate
+        run: python tools/gate.py
+
+      - name: Check the manifest is current
+        # regen-manifest must be a no-op on a clean tree. If it rewrites
+        # anything, the committed manifest did not match the files and every
+        # download would fail its hash check.
+        run: |
+          python tools/regen-manifest.py
+          if ! git diff --quiet -- manifest.json; then
+            echo "::error::manifest.json is stale - run tools/regen-manifest.py and commit the result"
+            git diff -- manifest.json
+            exit 1
+          fi
+
+      - name: Check line endings and encoding of every shipped file
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          # Manifest paths are INSTALL-relative, and the skills live under the
+          # plugin, so a path has to be RESOLVED rather than opened as written.
+          # `tools/_layout.py` is the one place that knows the mapping; opening
+          # the raw string here is what made this step fail on every run after
+          # the skills moved.
+          sys.path.insert(0, "tools")
+          from _layout import source_path
+          manifest = json.loads(pathlib.Path("manifest.json").read_text(encoding="utf-8"))
+          bad = []
+          for skill in manifest["skills"]:
+              for rel in skill["files"]:
+                  f = source_path(rel)
+                  if not f.exists():
+                      bad.append(f"{rel}: listed in the manifest but not in the repo")
+                      continue
+                  raw = f.read_bytes()
+                  if b"\r\n" in raw:
+                      bad.append(f"{rel}: CRLF")
+                  if raw.startswith(b"\xef\xbb\xbf"):
+                      bad.append(f"{rel}: BOM")
+          m = pathlib.Path("manifest.json").read_bytes()
+          if b"\r\n" in m:
+              bad.append("manifest.json: CRLF - this is what broke v1.4.1")
+          if bad:
+              print("\n".join(bad))
+              sys.exit(1)
+          print(f"checked {sum(len(s['files']) for s in manifest['skills'])} files: LF, no BOM")
+          PY
